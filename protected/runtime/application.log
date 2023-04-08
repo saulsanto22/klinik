@@ -1,0 +1,48 @@
+2023/04/08 12:05:14 [error] [exception.ParseError] ParseError: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in C:\laragon\www\klinik-simple\protected\views\layouts\main.php:79
+Stack trace:
+#0 C:\laragon\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#1 C:\laragon\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#2 C:\laragon\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\laragon\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\laragon\www\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\laragon\www\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\laragon\www\klinik-simple\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\laragon\www\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#8 C:\laragon\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#10 C:\laragon\www\klinik-simple\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\laragon\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\laragon\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\laragon\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\laragon\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\klinik-simple\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/klinik-simple/
+---
+2023/04/08 12:06:16 [error] [exception.ParseError] ParseError: syntax error, unexpected 'else' (T_ELSE), expecting end of file in C:\laragon\www\klinik-simple\protected\views\layouts\main.php:94
+Stack trace:
+#0 C:\laragon\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#1 C:\laragon\www\yii\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#2 C:\laragon\www\yii\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#3 C:\laragon\www\yii\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#4 C:\laragon\www\yii\framework\web\CBaseController.php(215): COutputProcessor->run()
+#5 C:\laragon\www\yii\framework\web\CBaseController.php(309): CBaseController->endWidget('CContentDecorat...')
+#6 C:\laragon\www\klinik-simple\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#7 C:\laragon\www\yii\framework\web\CBaseController.php(126): require('C:\\laragon\\www\\...')
+#8 C:\laragon\www\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\laragon\\www\\...', Array, true)
+#9 C:\laragon\www\yii\framework\web\CController.php(787): CBaseController->renderFile('C:\\laragon\\www\\...', Array, true)
+#10 C:\laragon\www\klinik-simple\protected\controllers\SiteController.php(32): CController->render('index')
+#11 C:\laragon\www\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 C:\laragon\www\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\laragon\www\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\laragon\www\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\laragon\www\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\laragon\www\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 C:\laragon\www\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#18 C:\laragon\www\klinik-simple\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/klinik-simple/
+---
